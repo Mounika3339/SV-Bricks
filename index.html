@@ -519,14 +519,7 @@ setInterval(() => {
   index++;
   showSlide(index);
 }, 3000);
-
-function openWhatsApp() {
-  const phoneNumber = "1234567890";
-  const message = encodeURIComponent("Hello, I have a question.");
-  const url = `https://wa.me{phoneNumber}?text=${message}`;
   
-  window.open(url, '_blank').focus();
-}
 </script>
 <body>
 <header>
@@ -561,7 +554,9 @@ function openWhatsApp() {
     <h2>SV Bricks & JCB Services</h2>
     <p>Strong Foundations Built with Trust</p>
 
-    <button onclick="openWhatsApp()">Chat Now</button>
+    <a href="https://wa.me/9705138822" target="_blank">
+  <button>Message on WhatsApp</button>
+</a>
   </div>
 
 </section>
